@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "I am on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5637106200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-page-test;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 816604600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 828115600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter email id in email field",
+            "match": {
+              "location": "LoginPageSteps.iEnterEmailIdInEmailField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 211607201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter password in password field",
+            "match": {
+              "location": "LoginPageSteps.iEnterPasswordInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217278500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148334399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see text Products",
+            "match": {
+              "location": "LoginPageSteps.iShouldSeeTextProducts()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "I am on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3361218200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should see six products are displayed on homepage",
+        "description": "",
+        "id": "login-page-test;user-should-see-six-products-are-displayed-on-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 823431100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196709400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter email id in email field",
+            "match": {
+              "location": "LoginPageSteps.iEnterEmailIdInEmailField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196498700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password in password field",
+            "match": {
+              "location": "LoginPageSteps.iEnterPasswordInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212065400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109083900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see six products are displayed on home page",
+            "match": {
+              "location": "LoginPageSteps.iShouldSeeSixProductsAreDisplayedOnHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          },
+          {
+            "line": 10,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "loginpage.feature"
+  }
+]

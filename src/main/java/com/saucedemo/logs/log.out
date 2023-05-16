@@ -1,0 +1,8 @@
+2023-05-16 16:05:44 INFO  LoginPage :29 - Enter email ID[[ChromeDriver: chrome on WINDOWS (51697d8ca8bc11223914a592589e6e6a)] -> id: user-name]
+2023-05-16 16:05:560 INFO  LoginPage :34 - Enter Password [[ChromeDriver: chrome on WINDOWS (51697d8ca8bc11223914a592589e6e6a)] -> name: password]
+2023-05-16 16:05:771 INFO  LoginPage :39 - Click on Login Button [[ChromeDriver: chrome on WINDOWS (51697d8ca8bc11223914a592589e6e6a)] -> name: login-button]
+2023-05-16 16:05:87 INFO  ProductPage :29 - Get Text Product [[ChromeDriver: chrome on WINDOWS (51697d8ca8bc11223914a592589e6e6a)] -> xpath: //span[@class='title']]
+2023-05-16 16:05:345 INFO  LoginPage :29 - Enter email ID[[ChromeDriver: chrome on WINDOWS (6b2e6a321212e8a9097607656c5b5f2e)] -> id: user-name]
+2023-05-16 16:05:551 INFO  LoginPage :34 - Enter Password [[ChromeDriver: chrome on WINDOWS (6b2e6a321212e8a9097607656c5b5f2e)] -> name: password]
+2023-05-16 16:05:733 INFO  LoginPage :39 - Click on Login Button [[ChromeDriver: chrome on WINDOWS (6b2e6a321212e8a9097607656c5b5f2e)] -> name: login-button]
+2023-05-16 16:05:29 INFO  ProductPage :36 - Get Product Qty [[ChromeDriver: chrome on WINDOWS (6b2e6a321212e8a9097607656c5b5f2e)] -> xpath: //span[@class='title']]
